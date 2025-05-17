@@ -1,0 +1,8 @@
+{
+  "label": "Administrator Manual",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Comprehensive guide for system administrators to set up, configure, and manage the MAESTRE platform for educational institutions."
+  }
+}

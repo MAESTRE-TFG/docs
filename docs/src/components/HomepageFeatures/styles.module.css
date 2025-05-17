@@ -1,0 +1,29 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+  background-color: var(--ifm-color-secondary-lightest);
+}
+
+[data-theme='dark'] .features {
+  background-color: var(--ifm-background-color);
+}
+
+.featureIcon {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.featureIcon svg {
+  color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .featureIcon svg {
+  color: var(--ifm-color-primary-lighter);
+}
